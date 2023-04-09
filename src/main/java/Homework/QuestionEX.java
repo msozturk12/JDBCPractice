@@ -24,8 +24,15 @@ public class QuestionEX {
         while (resultSet.next()) {
             System.out.println(count++ + resultSet.getString("columnName"));
             System.out.println(count++ + resultSet.getString("anotherColumnName"));
-            System.out.println(count++ + resultSet.getString("How do you solve conflict"));
-           
+            System.out.println(count++ + resultSet.getString("anotherColumnName1"));
+            System.out.println(count++ + resultSet.getString("anotherColumsdfsafsdfnName2"));
+
+            System.out.println(count++ + resultSet.getString("anotherColumnName"));
+            System.out.println(count++ + resultSet.getString("anotherColumnName1"));
+            System.out.println(count++ + resultSet.getString("anotherColumsdfsafsdfnName2"));
+            System.out.println(count++ + resultSet.getString("anotherColumsdfsafsdfnName2"));
+            System.out.println(count++ + resultSet.getString("anotherColumsdfsafsdfnName2"));
+            System.out.println(count++ + resultSet.getString("anotherColumsdfsafsdfnName2"));
 
         }
     }
