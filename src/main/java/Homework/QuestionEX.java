@@ -24,8 +24,7 @@ public class QuestionEX {
         while(resultSet.next()){
             System.out.println(count++  + resultSet.getString("columnName"));
              System.out.println(count++  + resultSet.getString("anotherColumnName"));
-System.out.println(count++  + resultSet.getString("pullTHAT"));
-System.out.println(count++  + resultSet.getString("pullTHAT2"));
+
 
         }
     }
