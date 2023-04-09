@@ -18,7 +18,7 @@ public class Question5 {
                 "JOIN rental r ON r.rental_id = p.rental_id\n" +
                 "JOIN inventory i ON i.inventory_id = r.inventory_id\n" +
                 "WHERE i.store_id=2\n" +
-                "AND r.return_date IS NOT NULL";
+                "AND r.return_date IS NULL";
         ResultSet resultSet = statement.executeQuery(query);
 
         //4-process the resultSet
