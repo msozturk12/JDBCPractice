@@ -23,6 +23,8 @@ public class QuestionEX {
         int count=1;
         while(resultSet.next()){
             System.out.println(count++  + resultSet.getString("columnName"));
+             System.out.println(count++  + resultSet.getString("anotherColumnName"));
+            
         }
     }
 }
