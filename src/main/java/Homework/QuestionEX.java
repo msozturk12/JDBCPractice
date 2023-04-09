@@ -25,7 +25,7 @@ public class QuestionEX {
             System.out.println(count++  + resultSet.getString("columnName"));
              System.out.println(count++  + resultSet.getString("anotherColumnName"));
    System.out.println(count++  + resultSet.getString("anotherColumnName1"));
-   System.out.println(count++  + resultSet.getString("anotherColumnName2"));
+   System.out.println(count++  + resultSet.getString("anotherColumsdfsafsdfnName2"));
         }
     }
 }
